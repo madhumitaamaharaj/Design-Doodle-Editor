@@ -1,0 +1,10 @@
+.container-pic {
+    
+    background-image: url('edit-pic.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: right center;
+    background-color: #fcd3e3;
+    height: 500px;
+    padding-top: 40px;
+}
