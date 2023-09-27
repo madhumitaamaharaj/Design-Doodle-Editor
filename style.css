@@ -35,10 +35,10 @@
    color: #353141; 
 }
 .section-with-background img {
-    max-width: 70px; /* Adjust the image width as needed */
-    border: 2px solid #4d4270; /* Add a border around the image */
-    padding: 10px; /* Add padding around the image */
-    margin-right: 20px; /* Add some spacing between the image and text */
+    max-width: 70px; 
+    border: 2px solid #4d4270; 
+    padding: 10px; 
+    margin-right: 20px; 
 }
 .site-footer {
     clear: both;
