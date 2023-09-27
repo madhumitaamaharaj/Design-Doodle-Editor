@@ -1,0 +1,96 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #4d4270;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("Design-Doodle-logo.png");
+    background-size: contain;
+    height: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.section-with-background {
+    
+    background-image: url('Home-Page.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: right center;
+    background-color: #fcd3e3;
+    height: 500px;
+    padding-top: 40px;
+}
+.section-with-background h2 {
+
+    margin-right: 10px; 
+    margin-top: 120px;
+   color: #353141; 
+}
+.section-with-background img {
+    max-width: 70px; /* Adjust the image width as needed */
+    border: 2px solid #4d4270; /* Add a border around the image */
+    padding: 10px; /* Add padding around the image */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+.site-footer {
+    clear: both;
+    text-align: center;
+    background-color: #353141;
+    color: white;
+    padding: 10px 0;
+    position: relative; 
+    margin-top: 5px;
+    font-weight: bold;
+}
+.animation-text {
+    white-space: nowrap; 
+    overflow: hidden; 
+    font-family:  monospace;
+    border-right: 2px solid #4d4270; 
+    font-size: 20px;
+}
+
+.animated-button {
+    color: white;
+    background-color: #4d4270;
+    border-radius: 8px;
+    padding: 10px 20px;
+ 
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.button-row {
+   
+    margin-left: 40px;
+  
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes erasing {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
